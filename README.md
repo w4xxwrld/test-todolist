@@ -1,19 +1,90 @@
-# README
+# Todo List Desktop Application
 
-## About
+A cross-platform desktop Todo List application built with Wails v2 (Go + JavaScript). Features task management with persistent storage and responsive UI with theme support.
 
-This is the official Wails Vanilla template.
+## Features Implemented
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+**Basic Features:**
+- [x] User interface with input field and buttons
+- [x] Add tasks with validation
+- [x] Delete tasks
+- [x] Mark tasks complete/incomplete
+- [x] Save/load state with file persistence
+- [x] Filter and sort tasks
 
-## Live Development
+**Bonus Features:**
+- [x] Responsive layout
+- [x] Dark/light theme toggle
+- [x] Due dates and priority levels
+- [x] Delete confirmation modal
+- [x] Separate completed tasks section
+- [x] PostgreSQL database integration
+- [x] Advanced filtering by date ranges
+- [x] Priority-based sorting
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+## How to Launch
 
-## Building
+### Prerequisites
+- Go 1.19+
+- Node.js 16+
 
-To build a redistributable, production mode package, use `wails build`.
+### Setup
+```bash
+# Install Wails
+go install github.com/wailsapp/wails/v2/cmd/wails@latest
+
+# Clone and setup project
+git clone <repository-url>
+cd test-todolist
+go mod tidy
+cd frontend && npm install && cd ..
+```
+
+### Run Development Server
+```bash
+$(go env GOPATH)/bin/wails dev
+```
+
+### Build Production Version
+```bash
+$(go env GOPATH)/bin/wails build
+```
+
+The build of the app will be in `build/bin/` directory.
+
+### Alternative Launch Commands
+If the above doesn't work, try:
+```bash
+# Option 1: Add to PATH temporarily
+export PATH=$PATH:$(go env GOPATH)/bin && wails dev
+
+# Option 2: Use full path directly
+/Users/$(whoami)/go/bin/wails dev
+```
+
+## Data Storage
+
+By default, tasks are saved to `~/.todolist/tasks.json`
+
+For PostgreSQL support, set environment variable:
+```bash
+export POSTGRES_CONNECTION_STRING="postgres://user:pass@localhost/dbname?sslmode=disable"
+```
+
+## Project Structure
+```
+├── internal/           # Backend (Go)
+│   ├── domain/         # Business entities
+│   ├── repository/     # Data storage (memory/file/postgres)
+│   ├── service/        # Business logic
+│   └── usecase/        # Application layer
+├── frontend/           # Frontend (HTML/CSS/JS)
+├── migrations/         # Database schema
+└── build/             # Build output
+```
+
+## Architecture
+- Clean Architecture with Domain/Repository/Service/UseCase layers
+- Multiple storage backends with automatic fallback
+- Modern responsive frontend with vanilla JavaScript
+- Cross-platform desktop application using Wails framework
