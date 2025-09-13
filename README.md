@@ -1,4 +1,4 @@
-# 📄 [Download my CV](screenshots/Screenshot%202025-09-13%20at%209.10.57%E2%80%AFPM.png)
+# 📄 [Download my CV](screenshots/cv.png)
 
 # Todo List Desktop Application
 
@@ -14,11 +14,11 @@ https://www.linkedin.com/in/shakhnazar-mussabekov/
 
 Below are some screenshots of the Todo List app:
 
-![Main UI](screenshots/Screenshot%202025-09-13%20at%209.10.57%E2%80%AFPM.png)
-![Add Task](screenshots/Screenshot%202025-09-13%20at%209.40.01%E2%80%AFPM.png)
+![Main UI](screenshots/Screenshot%202025-09-13%20at%209.39.51%E2%80%AFPM.png)
+![Dark Theme](screenshots/Screenshot%202025-09-13%20at%209.40.01%E2%80%AFPM.png)
 ![Delete Confirmation](screenshots/Screenshot%202025-09-13%20at%209.40.18%E2%80%AFPM.png)
 ![Completed Tasks](screenshots/Screenshot%202025-09-13%20at%209.40.38%E2%80%AFPM.png)
-![Dark Theme](screenshots/Screenshot%202025-09-13%20at%209.40.59%E2%80%AFPM.png)
+![Add Task](screenshots/Screenshot%202025-09-13%20at%209.40.59%E2%80%AFPM.png)
 
 ## Features Implemented
 
