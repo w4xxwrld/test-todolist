@@ -1,3 +1,5 @@
+# 📄 [Download my CV](screenshots/Screenshot%202025-09-13%20at%209.10.57%E2%80%AFPM.png)
+
 # Todo List Desktop Application
 
 A cross-platform desktop Todo List application built with Wails v2 (Go + JavaScript). Features task management with persistent storage and responsive UI with theme support.
@@ -5,7 +7,18 @@ A cross-platform desktop Todo List application built with Wails v2 (Go + JavaScr
 ## Link for the demo
 - https://www.loom.com/share/9b2c95188b844a1a8b4077567f19dac5
 
-## Linkedin: https://www.linkedin.com/in/shakhnazar-mussabekov/
+## Linkedin
+https://www.linkedin.com/in/shakhnazar-mussabekov/
+
+## Screenshots
+
+Below are some screenshots of the Todo List app:
+
+![Main UI](screenshots/Screenshot%202025-09-13%20at%209.10.57%E2%80%AFPM.png)
+![Add Task](screenshots/Screenshot%202025-09-13%20at%209.40.01%E2%80%AFPM.png)
+![Delete Confirmation](screenshots/Screenshot%202025-09-13%20at%209.40.18%E2%80%AFPM.png)
+![Completed Tasks](screenshots/Screenshot%202025-09-13%20at%209.40.38%E2%80%AFPM.png)
+![Dark Theme](screenshots/Screenshot%202025-09-13%20at%209.40.59%E2%80%AFPM.png)
 
 ## Features Implemented
 
