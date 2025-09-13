@@ -2,6 +2,11 @@
 
 A cross-platform desktop Todo List application built with Wails v2 (Go + JavaScript). Features task management with persistent storage and responsive UI with theme support.
 
+## Link for the demo
+- https://www.loom.com/share/9b2c95188b844a1a8b4077567f19dac5
+
+## Linkedin: https://www.linkedin.com/in/shakhnazar-mussabekov/
+
 ## Features Implemented
 
 **Basic Features:**
